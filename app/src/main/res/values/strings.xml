@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Gerador de Sorteios Loterias da Caixa</string>
+    <string name="app_title">Escolha em qual loteria deseja lançar sua sorte</string>
+    <string name="logo_description">Imagem de logo das loterias da caixa</string>
+    <string name="mega_da_virada">Mega da Virada</string>
+    <string name="mega">Mega Sena</string>
+    <string name="Quina">Quina</string>
+    <string name="btn_voltar">Voltar</string>
 </resources>
