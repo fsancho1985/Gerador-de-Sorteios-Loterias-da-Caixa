@@ -6,4 +6,6 @@
     <string name="mega">Mega Sena</string>
     <string name="Quina">Quina</string>
     <string name="btn_voltar">Voltar</string>
+    <string name="hint">Insira um número  de 6 a 15</string>
+    <string name="sortear">Sortear</string>
 </resources>
