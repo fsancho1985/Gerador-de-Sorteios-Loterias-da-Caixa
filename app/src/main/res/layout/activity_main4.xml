@@ -4,33 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity2">
+    tools:context=".MainActivity4">
 
     <TextView
-        android:id="@+id/numeros_mega"
+        android:id="@+id/numeros_quina"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/mega_da_virada"
+        android:text="@string/Quina"
         android:textSize="22sp"
         android:textStyle="bold"
         android:textColor="@color/white"
         android:textAlignment="center"
-        android:background="@color/mega"
+        android:background="@color/quina"
         android:layout_marginTop="18dp"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        />
 
     <EditText
-        android:id="@+id/opc_numeros"
+        android:id="@+id/opc_numeros_quina"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
-        android:hint="@string/hint"
+        android:hint="@string/hint_quina"
         android:autofillHints=""
         android:maxLength="2"
-        app:layout_constraintTop_toBottomOf="@+id/numeros_mega"
+        app:layout_constraintTop_toBottomOf="@+id/numeros_quina"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="35dp"
@@ -43,22 +44,22 @@
         />
 
     <Button
-        android:id="@+id/btn_sortear"
+        android:id="@+id/btn_sortear_quina"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/sortear"
         android:textSize="18sp"
         android:textStyle="bold"
         android:textColor="@color/white"
-        android:backgroundTint="@color/mega"
-        app:layout_constraintTop_toBottomOf="@+id/opc_numeros"
+        android:backgroundTint="@color/quina"
+        app:layout_constraintTop_toBottomOf="@+id/opc_numeros_quina"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="25dp"
         />
 
     <TextView
-        android:id="@+id/resultado"
+        android:id="@+id/resultado_quina"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:text="Resultado"
@@ -66,23 +67,24 @@
         android:textStyle="bold"
         android:textAlignment="center"
         android:padding="15dp"
-        app:layout_constraintTop_toBottomOf="@+id/btn_sortear"
+        app:layout_constraintTop_toBottomOf="@+id/btn_sortear_quina"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="25dp"
         />
 
     <Button
-        android:id="@+id/btn_voltar"
+        android:id="@+id/btn_voltar_quina"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btn_voltar"
-        android:textColor="@color/white"
+        android:textSize="18sp"
         android:textStyle="bold"
-        android:backgroundTint="@color/mega"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/quina"
         android:layout_marginStart="15dp"
         android:layout_marginBottom="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
