@@ -2,4 +2,6 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="quina">#42338b</color>
+    <color name="mega">#019e4d</color>
 </resources>
